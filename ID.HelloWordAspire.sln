@@ -14,6 +14,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ID.HelloWordAspire.Tests", "tests\ID.HelloWordAspire.Tests\ID.HelloWordAspire.Tests.csproj", "{788E4BC3-E2D7-EEDD-C014-746AA5403C70}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{DEFE8280-4D86-4D9F-9B66-D4A521557684}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backstage", "Backstage", "{F83B6614-EBBE-422E-BEA8-80547D58F838}"
+	ProjectSection(SolutionItems) = preProject
+		Api.yaml = Api.yaml
+		System.yaml = System.yaml
+		WebApp.yaml = WebApp.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +55,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{788E4BC3-E2D7-EEDD-C014-746AA5403C70} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F83B6614-EBBE-422E-BEA8-80547D58F838} = {DEFE8280-4D86-4D9F-9B66-D4A521557684}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FEDBC673-08B9-4866-81FC-4B67F92783C2}
