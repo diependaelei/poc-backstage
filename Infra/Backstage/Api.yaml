@@ -6,7 +6,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: indy-diependaele
+  owner: wcs
   system: aspire-weatherapp
   definition: |
     openapi: "3.0.0"

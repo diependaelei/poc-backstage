@@ -4,5 +4,5 @@ metadata:
   name: aspire-weatherapp
   description: .NET Aspire tutorial app.
 spec:
-  owner: indy-diependaele
+  owner: wcs
   type: service

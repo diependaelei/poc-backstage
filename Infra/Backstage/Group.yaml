@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: wcs
+  description: Web & Content Solutions
+spec:
+  type: team
+  profile:
+    displayName: Web & Content Solutions
+  children: [wcs1]
+  members: [diependaelei]

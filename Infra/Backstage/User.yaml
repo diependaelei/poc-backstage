@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: diependaelei
+spec:
+  profile:
+    displayName: Indy Diependaele
+    email: indy.diependaele@delaware.pro
+  memberOf: [wcs, wcs1]
